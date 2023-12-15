@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Source+Code+Pro:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slidebar {
+    background-color: rgb(228, 226, 226);
+    width: 400px;
+    font-family: 'Gabarito', cursive;
+    height: 100vh;
+}
+
+.slidebar nav {
+    padding: 45px;
+}
+
+.slidebar nav li {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 33px;
+}
+
+.slidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /*background-color: rgb(255, 0, 149);*/
+    height: 55vh;
+    width: 75vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 50px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Gabarito', cursive;
+}
+
+.about {
+    font-size: 30px;
+}
+
+.moreabout {
+    font-size: 20px;
+    margin-top: 23px;
+    font-family: 'Gabarito', cursive;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 12px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: blue;
+}
+
+.devpic img {
+    width: 220px;
+}
+
+.contactform {
+    padding: 0 50px;
+    padding-top: 144px;
+    font-family: 'Gabarito', cursive;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+.contactform div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailhelp {
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Gabarito', cursive;
+}
+
+h1 {
+    font-family: 'Gabarito', cursive;
+    margin: 23px;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.intro h2 {
+    font-family: 'Gabarito', cursive;
+    margin: 12px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skill {
+    width: 170px;
+    height: 7px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty {
+    width: 125px;
+    background-color: aqua;
+}
+
+.t5 {
+    width: 75px;
+    background-color: yellow;
+}
+
+@media (max-width: 12450px) {
+    * {
+        /* background-color: rgb(167, 65, 65)*/
+        ;
+    }
+}
+
+.cross {
+    margin-top: 10px;
+    margin-left: 185px;
+}
